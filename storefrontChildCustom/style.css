@@ -1,7 +1,7 @@
 /*
  Theme Name:   Storefront Child
  Template:     storefront
- Version:      1.1.0
+ Version:      1.1.1
 */
 
 .sticky-active {
@@ -17,3 +17,36 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
+
+.entry-title {
+    display: none !important;
+  }
+  
+  .entry-header {
+      display: none !important;
+  }
+  
+  .woocommerce-products-header {
+      display: none !important;
+  }
+  
+  .site-header .site-branding img {
+      max-width: 560px !important;
+  }
+  
+  .home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
+      margin-bottom: 0 !important;
+  }
+  
+  li.menu-item-41 a {
+      font-weight: bold !important;
+  }
+  
+  
+  li.menu-item-96 a {
+      font-weight: bold !important;
+  }
+  
+  .widget {
+      margin-bottom: 50px !important;
+  }
