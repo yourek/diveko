@@ -3,13 +3,13 @@ function add_class_on_scroll() {
     echo '<script>
         jQuery(document).ready(function($) {
             $(window).scroll(function() {
-                if ($(this).scrollTop() >= 100) {
+                if ($(this).scrollTop() >= 200) {
                     $("#masthead-sticky").addClass("sticky-displayed");
                 } else {
                     $("#masthead-sticky").removeClass("sticky-displayed");
                 }
 
-                if ($(this).scrollTop() >= 120) {
+                if ($(this).scrollTop() >= 230) {
                     $("#masthead-sticky").addClass("sticky-active");
                 } else {
                     $("#masthead-sticky").removeClass("sticky-active");
