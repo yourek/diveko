@@ -1,13 +1,14 @@
 /*
  Theme Name:   Storefront Child
  Template:     storefront
+ Version:      1.1.0
 */
 
 .sticky-active {
     opacity: 1 !important;
 }
 
-/* .sticky {
+.sticky {
     padding-top: 0px;
     position: fixed;
     top: 0;
@@ -15,4 +16,4 @@
     z-index: 9999;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-} */
+}
